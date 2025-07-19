@@ -1,0 +1,10 @@
+--cpu Cortex-M0+
+".\objects\uart_echo_interrupts_standby.o"
+".\objects\startup_mspm0l130x_uvision.o"
+".\objects\ti_msp_dl_config.o"
+".\objects\tjc_usart_hmi.o"
+"..\..\..\..\..\..\source\ti\driverlib\lib\keil\m0p\mspm0l11xx_l13xx\driverlib.a"
+--strict --scatter ".\mspm0l1306.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\uart_echo_interrupts_standby_LP_MSPM0L1306_nortos_keil.map" -o .\Objects\uart_echo_interrupts_standby_LP_MSPM0L1306_nortos_keil.axf

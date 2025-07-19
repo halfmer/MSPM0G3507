@@ -6,13 +6,13 @@
   C:\Keil_v5\ARM\ARMCLANG\include\ti\devices\msp\msp.h \
   C:\Keil_v5\ARM\ARMCLANG\include\ti\devices\DeviceFamily.h \
   C:\Keil_v5\ARM\ARMCLANG\include\ti\devices\msp\m0p\mspm0g350x.h \
-  D:\MSPM0\[9]Serial_port_screen\keil\Include\core_cm0plus.h \
-  D:\MSPM0\[9]Serial_port_screen\keil\Include\cmsis_version.h \
-  D:\MSPM0\[9]Serial_port_screen\keil\Include\cmsis_compiler.h \
-  D:\MSPM0\[9]Serial_port_screen\keil\Include\cmsis_armclang.h \
+  D:\MSPM0\MSPM0G3507\[9]Serial_port_screen\keil\Include\core_cm0plus.h \
+  D:\MSPM0\MSPM0G3507\[9]Serial_port_screen\keil\Include\cmsis_version.h \
+  D:\MSPM0\MSPM0G3507\[9]Serial_port_screen\keil\Include\cmsis_compiler.h \
+  D:\MSPM0\MSPM0G3507\[9]Serial_port_screen\keil\Include\cmsis_armclang.h \
   C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h \
   C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h \
-  D:\MSPM0\[9]Serial_port_screen\keil\Include\mpu_armv7.h \
+  D:\MSPM0\MSPM0G3507\[9]Serial_port_screen\keil\Include\mpu_armv7.h \
   C:\Keil_v5\ARM\ARMCLANG\include\ti\devices\msp\peripherals\hw_adc12.h \
   C:\Keil_v5\ARM\ARMCLANG\include\ti\devices\msp\peripherals\hw_aes.h \
   C:\Keil_v5\ARM\ARMCLANG\include\ti\devices\msp\peripherals\hw_comp.h \

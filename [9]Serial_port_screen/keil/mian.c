@@ -32,20 +32,17 @@ int main(void)
          tjc_send_string(str);
          sprintf(str, "t0.txt=\"%d\"\xff\xff\xff", a);
          tjc_send_string(str);
-         sprintf(str, "click b0,1\xff\xff\xff");
+         sprintf(str, "click b0,1");
+         tjc_send_string(str);
+         sprintf(str, "click bt0,1");
          tjc_send_string(str);
          Delay_ms(50);
-         sprintf(str, "click b0,0\xff\xff\xff");
+         sprintf(str, "click b0,0");
          tjc_send_string(str);
-
+          sprintf(str, "click bt0,0");
+         tjc_send_string(str);
+         Delay_ms(50);
          a++;
-            if(a == 105)
-            {
-                LED_OFF();
-                sprintf(str, "\x55\x01\x01\x01\xff\xff\xff");
-                tjc_send_string(str);
-
-            }
       }
       // stm32f103的GND接串口屏或串口工具的GND,共地
       // stm32f103的TX1(PA9)接串口屏或串口工具的RX
@@ -85,13 +82,13 @@ int main(void)
                tjc_send_string(str);
                if (u(2) == 0x00)
                {
-                  if (u(3) == 0x00)
+                  if (u(3) == 0x01)
                   {
-                     LED_ON();
+                     LED_OFF();
                   }
                   else
                   {
-                     LED_OFF();
+                     LED_ON();
                   }
                }
             }
