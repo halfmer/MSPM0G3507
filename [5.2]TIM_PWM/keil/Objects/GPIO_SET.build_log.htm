@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Li half, 1, LIC=WHYH9-4LVNG-303NC-7K85N-UNX0E-DVAHJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      CMSIS_AGDI.dll V1.33.16.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\MSPM0\[5.2]TIM_PWM\keil\GPIO_SET.uvprojx
+Project File Date:  07/10/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+mian.c(5): warning: no previous prototype for function 'Set_Duty' [-Wmissing-prototypes]
+    5 | void Set_Duty(uint8_t duty,uint16_t channel)
+      |      ^
+mian.c(5): note: declare 'static' if the function is not intended to be used outside of this translation unit
+    5 | void Set_Duty(uint8_t duty,uint16_t channel)
+      | ^
+      | static 
+1 warning generated.
+compiling mian.c...
+linking...
+Program Size: Code=1120 RO-data=224 RW-data=0 ZI-data=544  
+".\Objects\GPIO_SET.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: TexasInstruments
+                https://software-dl.ti.com/msp430/esd/MSPM0-CMSIS/MSPM0G1X0X_G3X0X/latest/exports/TexasInstruments.MSPM0G1X0X_G3X0X_DFP.1.3.1.pack
+                TexasInstruments::MSPM0G1X0X_G3X0X_DFP@1.3.1
+                Device Family Pack for Texas Instruments MSPM0G1X0X_G3X0X Series
+
+<h2>Collection of Component include folders:</h2>
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

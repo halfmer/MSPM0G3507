@@ -1,0 +1,5 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-gdwarf-4 -O2 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Include -I .. -I ../MCU_Drives -I ../Peripheral_Driver
+-D__UVISION_VERSION="539" -D__MSPM0G3507__ -D__MSPM0G3507__
+-o ./objects/mian.o -MD "mian.c"
